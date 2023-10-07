@@ -35,7 +35,7 @@ lb config noauto \
     --apt-options "--yes --option Acquire::Retries=5 --option Acquire::http::Timeout=100" \
     --apt-recommends false \
     --cache-packages false \
-    --uefi-secure-boot false \
+    --uefi-secure-boot auto \
     --binary-images iso \
     --iso-application "$NAME" \
     --iso-volume "$NAME" \
